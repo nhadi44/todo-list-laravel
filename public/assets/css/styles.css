@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar__custom {
+    height: 5rem;
+}
+
+.navbar__custom .navbar__image {
+    height: 2.5rem;
+}
+
+.navbar__custom .navbar__brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.navbar__custom .navbar__menu {
+    list-style: none;
+}
+
+.navbar__custom .navbar__item {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+}
+
+.navbar__custom .navbar__item:hover {
+    color: #ffc107;
+}
+
+.navbar__custom .navbar__separator {
+    color: white;
+    border-left: 1px solid white;
+    height: 1.8rem;
+}
